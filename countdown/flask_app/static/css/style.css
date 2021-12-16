@@ -10,6 +10,7 @@ body{
         display: flex;
         align-items: space-between;
         width: 100%;
+        font-family: Paladins;
 
 }
 
@@ -20,14 +21,14 @@ body{
 .mayweather-container{
     height: 100%;
     width: 50%;
-    background: url("https://assets.codepen.io/6060109/mayweather.png")no-repeat center bottom;
+    background: url("https://assets.codepen.io/6060109/mayweather.png")bottom left / contain no-repeat;
 }
 
 
 .logan-container{
     height: 100%;
     width: 50%;
-    background: url("https://assets.codepen.io/6060109/loganpaul.png") no-repeat center bottom;
+    background: url("https://assets.codepen.io/6060109/loganpaul.png") bottom right / contain no-repeat ;
 }
 
 .text-container{
@@ -43,17 +44,16 @@ body{
 }
 
 .text-container-1{
-    left: -10%;
-    padding-left: 100px;
+    margin-left: -80px;
+    
+    
+
 
 }
-.text-container-2 {
-    right: -10%;
+.text-container h1 {
+    padding-left: 70px;
 }
 
-.text-container-2 h1{
-    padding-left: 200px;
-}
 
 .clock{
     position: absolute;
